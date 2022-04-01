@@ -3,6 +3,8 @@
   "projects": {
     "mobile": "apps/mobile",
     "mobile-e2e": "apps/mobile-e2e",
+    "portal": "apps/portal",
+    "portal-e2e": "apps/portal-e2e",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
