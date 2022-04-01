@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+.text {
+    @apply text-red-700 font-bold
+}
