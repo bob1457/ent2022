@@ -1,1 +1,5 @@
 /* Your styles goes here. */
+
+.text {
+    @apply text-red-700 font-bold text-center align-middle uppercase
+}
