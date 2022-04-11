@@ -16,11 +16,7 @@
         "polyfills": "apps/portal/src/polyfills.ts",
         "tsConfig": "apps/portal/tsconfig.app.json",
         "assets": ["apps/portal/src/favicon.ico", "apps/portal/src/assets"],
-<<<<<<< HEAD
         "styles": ["apps/portal/src/styles.scss"],
-=======
-        "styles": ["apps/portal/src/styles.css"],
->>>>>>> 2a7844feb2976b2305401744444286acd6809f32
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },

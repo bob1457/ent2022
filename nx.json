@@ -45,16 +45,11 @@
     },
     "@nrwl/react": {
       "application": {
-<<<<<<< HEAD
         "style": "scss",
-=======
-        "style": "css",
->>>>>>> 2a7844feb2976b2305401744444286acd6809f32
         "linter": "eslint",
         "babel": true
       },
       "component": {
-<<<<<<< HEAD
         "style": "scss"
       },
       "library": {
@@ -65,12 +60,6 @@
     "@nrwl/next": {
       "application": {
         "style": "scss",
-=======
-        "style": "css"
-      },
-      "library": {
-        "style": "css",
->>>>>>> 2a7844feb2976b2305401744444286acd6809f32
         "linter": "eslint"
       }
     }
