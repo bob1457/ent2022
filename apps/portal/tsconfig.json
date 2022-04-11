@@ -13,10 +13,14 @@
     "noFallthroughCasesInSwitch": true
   },
   "files": [],
+<<<<<<< HEAD
   "include": [
     "src/**/*.ts",
     "declaration.d.ts"
   ],
+=======
+  "include": [],
+>>>>>>> 2a7844feb2976b2305401744444286acd6809f32
   "references": [
     {
       "path": "./tsconfig.app.json"

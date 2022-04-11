@@ -5,8 +5,11 @@
     "mobile-e2e": "apps/mobile-e2e",
     "portal": "apps/portal",
     "portal-e2e": "apps/portal-e2e",
+<<<<<<< HEAD
     "site": "apps/site",
     "site-e2e": "apps/site-e2e",
+=======
+>>>>>>> 2a7844feb2976b2305401744444286acd6809f32
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }
