@@ -34,6 +34,12 @@
           "namedChunks": false,
           "extractLicenses": true,
           "vendorChunk": false
+        },
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
         }
       }
     },
@@ -47,8 +53,12 @@
         "production": {
           "buildTarget": "portal:build:production",
           "hmr": false
+        },
+        "development": {
+          "buildTarget": "portal:build:development"
         }
-      }
+      },
+      "defaultConfiguration": "development"
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
@@ -61,7 +71,7 @@
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/portal"],
       "options": {
-        "jestConfig": "apps/portal/jest.config.js",
+        "jestConfig": "apps/portal/jest.config.ts",
         "passWithNoTests": true
       }
     }
