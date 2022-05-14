@@ -32,10 +32,16 @@
     "@nrwl/linter": "14.0.3",
     "@nrwl/next": "14.0.3",
     "@nrwl/react": "14.0.3",
+    "@nrwl/storybook": "^14.0.5",
     "@nrwl/web": "14.0.3",
     "@nrwl/workspace": "14.0.3",
     "@nxtend/capacitor": "^13.0.0",
     "@nxtend/ionic-angular": "^13.0.0",
+    "@storybook/addon-essentials": "~6.4.12",
+    "@storybook/angular": "~6.4.12",
+    "@storybook/builder-webpack5": "~6.4.12",
+    "@storybook/core-server": "~6.4.12",
+    "@storybook/manager-webpack5": "~6.4.12",
     "@testing-library/react": "13.1.1",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
@@ -65,7 +71,8 @@
     "tailwindcss": "^3.0.23",
     "ts-jest": "27.1.4",
     "ts-node": "9.1.1",
-    "typescript": "4.6.3"
+    "typescript": "4.6.3",
+    "webpack": "^5.64.0"
   },
   "dependencies": {
     "@angular/animations": "13.3.4",
