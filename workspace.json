@@ -10,5 +10,6 @@
     "site-e2e": "apps/site-e2e",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }

@@ -1,14 +1,12 @@
 {
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "root": "apps/mobile",
   "sourceRoot": "apps/mobile/src",
   "prefix": "ent2022",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/mobile",
         "index": "apps/mobile/src/index.html",
@@ -94,9 +92,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/apps/mobile"
-      ],
+      "outputs": ["coverage/apps/mobile"],
       "options": {
         "jestConfig": "apps/mobile/jest.config.ts",
         "passWithNoTests": true
